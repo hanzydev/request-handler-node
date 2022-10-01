@@ -1,0 +1,18 @@
+{
+    "name": "request-handler-node",
+    "version": "1.0.0",
+    "description": "A request handler.",
+    "main": "src/index.js",
+    "repository": "https://github.com/deliever42/request-handler-node",
+    "author": "deliever42",
+    "license": "GPL-3.0",
+    "private": false,
+    "type": "module",
+    "scripts": {
+        "test": "node test/index.js"
+    },
+    "dependencies": {
+        "file-type": "^18.0.0",
+        "qs": "^6.11.0"
+    }
+}
